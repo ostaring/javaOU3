@@ -36,6 +36,7 @@ public class Node{
     }
     public Position getPosition(){
         return nodePos;
+        
     }
     public void runQueue(){
 
@@ -62,19 +63,13 @@ public class Node{
      * distance between the rows and cols in the network is set to 10.
      *  @param neighbourList list to fill.
      */
-    public void addNeighboursToList(ArrayList neighbourList){
+    public void addNeighboursToList(ArrayList neighbourList) {
         int searchRadius = theNetwork.getSearchDistance();
-        for(Position position : theNetwork.getTheNetwork().keySet()){
-            for(){
-                if(Math.sqrt(nodePos.getY() - nodePos2.getY())){
-                    neighbourList.add(s)
-                }
-
+        for(Position position : theNetwork.getTheNetwork().keySet()) {
+            if (sqrt((nodePos.getY() - position.getY()) ^ 2 + (nodePos.getX() - position.getX()) ^ 2) < searchRadius) {
+                neighbourList.add(theNetwork.getNode(position));
             }
-
         }
-
-
     }
 
     /**
