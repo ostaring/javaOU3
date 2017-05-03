@@ -14,9 +14,5 @@ public class Agent extends NetworkOperator {
     public Agent(int timeStep, int eventID, Position pos){
 
     }
-    public void move(){
-
-    }
-
 
 }
