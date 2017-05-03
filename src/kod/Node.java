@@ -67,7 +67,7 @@ public class Node{
         for(Position position : theNetwork.getTheNetwork().keySet()){
             for(){
                 if(Math.sqrt(nodePos.getY()){
-                    neighbourList.add()
+                    neighbourList.add(s)
                 }
 
             }
