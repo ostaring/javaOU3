@@ -11,7 +11,7 @@ public class Node{
     private Hashtable<Integer,Event> eventTable;
     private Position nodePos;
     private Queue<Event> informationQueue;
-    private int agentTimeTolive, requestTimeToLive;
+    private int agentTimeToLive, requestTimeToLive;
     private float agentProbability;
     private Network theNetwork;
     public Node(){
@@ -66,7 +66,7 @@ public class Node{
         int searchRadius = theNetwork.getSearchDistance();
         for(Position position : theNetwork.getTheNetwork().keySet()){
             for(){
-                if(Math.sqrt(nodePos.getY()){
+                if(Math.sqrt(nodePos.getY() - nodePos2.getY())){
                     neighbourList.add(s)
                 }
 
